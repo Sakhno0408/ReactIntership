@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+.title-one {
+  height: 50px;
+  background: #20232A;
+}
+
+.title-one-text {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #61DAFB;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.title-one-text::before {
+  width: 20px;
+  height: 20px;
+  content: ' ';
+  background-image: url("images/logo.svg");
+  background-size: 20px 20px;
+  position: absolute;
+  margin-left: -26px;
+  margin-top: 15px;
+}
+
+.title-two {
+  height: 100px;
+  background: #282C34;
+}
+
+.title-two-text {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+
+main {
+  padding-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+}
+
+.title-main {
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #282C34;
+}
+
+.title-context {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 40px;
+}
+
+footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: -100px;
+  height: 100px;
+  background: #282C34;
+}
+
+.footer-link-title {
+  line-height: 50px;
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #999999;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link::after {
+  width: 15px;
+  height: 15px;
+  content: ' ';
+  background-image: url("images/link.svg");
+  filter: invert(44%) sepia(1%) saturate(2154%) hue-rotate(13deg) brightness(96%) contrast(93%);
+  background-size: 15px 15px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.footer-corporation {
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 100px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-text-gray {
+  line-height: 100px;
+  display: inline-block;
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #999999;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.footer-text-white {
+  line-height: 100px;
+  display: inline-block;
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+  border: none !important;
+}
+
+a:hover p {
+  color: #61DAFB;
+}
